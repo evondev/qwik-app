@@ -40,5 +40,11 @@
     "undici": "*",
     "vite": "5.3.5",
     "vite-tsconfig-paths": "^4.2.1"
+  },
+  "dependencies": {
+    "@unpic/qwik": "^1.0.0",
+    "clsx": "^2.1.1",
+    "qwik-image": "^0.0.16",
+    "tailwind-merge": "^3.3.1"
   }
 }
