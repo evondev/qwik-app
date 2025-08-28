@@ -31,7 +31,6 @@ export interface Genre {
 
 export async function fetchGenres(): Promise<Genre[]> {
   const response = await fetch(tmdbAPI.getGenreList());
-  console.log("console.remove - fetchGenres - response:", response);
   if (!response.ok) throw new Error("Failed to fetch genres");
   const data = await response.json();
   return data.genres;

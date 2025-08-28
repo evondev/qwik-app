@@ -130,7 +130,7 @@ export default component$(() => {
         <div
           class="h-full w-full bg-cover bg-no-repeat"
           style={{
-            backgroundImage: `url(/public/spiderman.jpg)`,
+            backgroundImage: `url(/spiderman.jpg)`,
           }}
         ></div>
       </div>
