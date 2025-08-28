@@ -9,6 +9,6 @@
 
 @layer base {
   body {
-    @apply p-5 dark:bg-gray-900 dark:text-white;
+    @apply bg-white dark:bg-gray-900 dark:text-white;
   }
 }
